@@ -94,6 +94,12 @@ cc.Class({
 
         // 根据当前速度更新主角的位置
         this.node.x += this.xSpeed * dt;
+        // 限制边界
+        var size = cc.view.getFrameSize();
+        var half = size.width / 2;
+        if (Math.abs(this.node.x) >= half) {
+            this.node.x = half * this.node.x / Math.abs(this.node.x);
+        }
     }
 });
 

@@ -23,7 +23,6 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-
     getPlayerDistance: function getPlayerDistance() {
         // 根据 player 节点位置判断距离
         var playerPos = this.game.player.getPosition();
@@ -37,6 +36,8 @@ cc.Class({
         this.game.spawnNewStar();
         // 然后销毁当前星星节点
         this.node.destroy();
+        // 增加积分
+        this.game.gainScore(1);
     },
 
     start: function start() {},

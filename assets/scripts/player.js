@@ -58,9 +58,9 @@ cc.Class({
         // 初始化跳跃动作
         this.jumpAction = this.setJumpAction();
         this.node.runAction(this.jumpAction);
-        this.accLeft = false
-        this.accRight = false
-        this.xSpeed = 0
+        this.accLeft = false;
+        this.accRight = false;
+        this.xSpeed = 0;
 
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN,this.onKeyDown,this)
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP,this.onKeyUp,this)
@@ -90,5 +90,11 @@ cc.Class({
 
         // 根据当前速度更新主角的位置
         this.node.x += this.xSpeed * dt;
+        // 限制边界
+        var size = cc.view.getFrameSize();
+        var half = size.width/2
+        if (Math.abs(this.node.x) >=half){
+            this.node.x = half*this.node.x/Math.abs(this.node.x)
+        }
     },
 });

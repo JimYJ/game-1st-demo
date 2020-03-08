@@ -35,15 +35,28 @@ cc.Class({
         player: {
             default: null,
             type: cc.Node
+        },
+        // scoreDisplay 得分显示
+        scoreDisplay: {
+            default: null,
+            type: cc.Label
         }
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
+
+        // 初始化计时器
+        this.timer = 0;
+        this.starDuration = 0;
         // 获取地平面的 y 轴坐标
         this.groundY = this.ground.y + this.ground.height / 2;
+        var player = cc.instantiate(this.player);
+        player.getComponent('player').game = this;
         this.spawnNewStar();
+        // 初始化积分
+        this.score = 0;
     },
 
     spawnNewStar: function spawnNewStar() {
@@ -65,6 +78,12 @@ cc.Class({
         randX = (Math.random() - 0.5) * 2 * maxX;
         // 返回星星坐标
         return cc.v2(randX, randY);
+    },
+
+    gainScore: function gainScore(scores) {
+        this.score += scores;
+        // 更新 scoreDisplay Label 的文字
+        this.scoreDisplay.string = 'Score: ' + this.score;
     },
 
     start: function start() {}
