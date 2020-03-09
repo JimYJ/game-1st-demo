@@ -64,6 +64,19 @@ cc.Class({
         }
     },
 
+    toLeft: function () {
+        this.accLeft = true;
+    },
+    toRight: function () {
+        this.accRight = true;
+    },
+
+    stopLeft: function () {
+        this.accLeft = false;
+    },
+    stopRight: function () {
+        this.accRight = false;
+    },
 
     onLoad: function () {
         // 初始化跳跃动作
@@ -75,6 +88,13 @@ cc.Class({
 
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this)
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this)
+
+        var leftArea = cc.find("Canvas/left_area");
+        var rightArea = cc.find("Canvas/right_area");
+        leftArea.on(cc.Node.EventType.TOUCH_START, this.toLeft, this);
+        rightArea.on(cc.Node.EventType.TOUCH_START, this.toRight, this);
+        leftArea.off(cc.Node.EventType.TOUCH_END, this.toLeft, this);
+        rightArea.off(cc.Node.EventType.TOUCH_END, this.toRight, this);
     },
 
     onDestroy: function () {

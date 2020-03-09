@@ -25,7 +25,7 @@ cc.Class({
 
     onEventStart: function () {
         this.node.destroy();
-        cc.director.loadScene('start');
+        cc.director.loadScene('game');
     },
 
     start() {

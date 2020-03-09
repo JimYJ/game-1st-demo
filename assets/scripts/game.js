@@ -38,6 +38,14 @@ cc.Class({
         scoreAudio: {
             default: null,
             type: cc.AudioClip
+        },
+        screenLeft: {
+            default: null,
+            type: cc.Sprite
+        },
+        screenRight: {
+            default: null,
+            type: cc.Sprite
         }
     },
 
@@ -54,6 +62,12 @@ cc.Class({
         this.groundY = this.ground.y + this.ground.height / 2;
         var player = cc.instantiate(this.player)
         player.getComponent('player').game = this
+
+        // this.screenLeft.node.on(cc.Node.EventType.TOUCH_START, player.toLeft(), this);
+        // this.screenRight.node.on(cc.Node.EventType.TOUCH_START, player.toRight(), this);
+        // this.screenLeft.node.off(cc.Node.EventType.TOUCH_END, player.stopLeft(), this);
+        // this.screenRight.node.off(cc.Node.EventType.TOUCH_END, player.stopRight(), this);
+
         this.spawnNewStar();
     },
 
