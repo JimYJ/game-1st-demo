@@ -20,6 +20,10 @@ cc.Class({
         maxMoveSpeed: 0,
         // 加速度
         accel: 0,
+        jumpAudio: {
+            default: null,
+            type: cc.AudioClip
+        }
     },
 
     setJumpAction: function () {
@@ -27,12 +31,19 @@ cc.Class({
         var jumpUp = cc.moveBy(this.jumpDuration, cc.v2(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
         // 下落
         var jumpDown = cc.moveBy(this.jumpDuration, cc.v2(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
+        // 添加一个回调函数，用于在动作结束时调用我们定义的其他方法
+        var callback = cc.callFunc(this.playJumpSound, this)
         // 不断重复
-        return cc.repeatForever(cc.sequence(jumpUp, jumpDown));
+        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback));
     },
 
-    onKeyDown (event){
-        switch(event.keyCode){
+    playJumpSound: function () {
+        // 调用声音引擎播放声音
+        cc.audioEngine.playEffect(this.jumpAudio, this)
+    },
+
+    onKeyDown(event) {
+        switch (event.keyCode) {
             case cc.macro.KEY.a:
                 this.accLeft = true;
                 break;
@@ -42,8 +53,8 @@ cc.Class({
         }
     },
 
-    onKeyUp(event){
-        switch(event.keyCode){
+    onKeyUp(event) {
+        switch (event.keyCode) {
             case cc.macro.KEY.a:
                 this.accLeft = false;
                 break;
@@ -62,14 +73,15 @@ cc.Class({
         this.accRight = false;
         this.xSpeed = 0;
 
-        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN,this.onKeyDown,this)
-        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP,this.onKeyUp,this)
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this)
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this)
     },
 
-    onDestroy: function(){
-        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN,this.onKeyDown,this)
-        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP,this.onKeyUp,this)
+    onDestroy: function () {
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this)
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this)
     },
+
 
     start() {
 
@@ -83,7 +95,7 @@ cc.Class({
             this.xSpeed += this.accel * dt;
         }
         // 限制主角的速度不能超过最大值
-        if ( Math.abs(this.xSpeed) > this.maxMoveSpeed ) {
+        if (Math.abs(this.xSpeed) > this.maxMoveSpeed) {
             // if speed reach limit, use max speed with current direction
             this.xSpeed = this.maxMoveSpeed * this.xSpeed / Math.abs(this.xSpeed);
         }
@@ -92,9 +104,9 @@ cc.Class({
         this.node.x += this.xSpeed * dt;
         // 限制边界
         var size = cc.view.getFrameSize();
-        var half = size.width/2
-        if (Math.abs(this.node.x) >=half){
-            this.node.x = half*this.node.x/Math.abs(this.node.x)
+        var half = size.width / 2
+        if (Math.abs(this.node.x) >= half) {
+            this.node.x = half * this.node.x / Math.abs(this.node.x)
         }
     },
 });

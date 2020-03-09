@@ -500,8 +500,8 @@
     "relativePath": "textures\\star.png"
   },
   "71ffc2be-c7fb-4e25-95d4-4dcce74afc6b": {
-    "asset": 1583719398650,
-    "meta": 1583719465641,
+    "asset": 1583736056142,
+    "meta": 1583736056187,
     "relativePath": "game.fire"
   },
   "658b0aaf-f353-4817-a387-b4b9e22230c4": {
@@ -510,23 +510,58 @@
     "relativePath": "scripts"
   },
   "c561af81-7826-4fa0-85b6-cc3434658be5": {
-    "asset": 1583719398731,
-    "meta": 1583719465968,
+    "asset": 1583722724751,
+    "meta": 1583722724775,
     "relativePath": "star.prefab"
   },
   "8af088c9-98d5-4781-bf4a-9f566717a8ab": {
-    "asset": 1583719398715,
-    "meta": 1583719465920,
+    "asset": 1583724389944,
+    "meta": 1583724535170,
     "relativePath": "scripts\\player.js"
   },
   "73278a6c-84b8-4a21-9caf-65a59249dc4b": {
-    "asset": 1583719398724,
-    "meta": 1583719465950,
+    "asset": 1583724334887,
+    "meta": 1583724535176,
     "relativePath": "scripts\\star.js"
   },
+  "b021c069-6af6-49ff-90c7-e1e6b389efce": {
+    "asset": 1583747884598,
+    "meta": 1583747884626,
+    "relativePath": "start.fire"
+  },
+  "896810bf-c2b1-414a-b5e4-97e63eea6c67": {
+    "asset": 1583744113544,
+    "meta": 1583744113585,
+    "relativePath": "start.prefab"
+  },
+  "82d9bac0-a1f3-49a4-8610-9838b014ebda": {
+    "asset": 1583745310594,
+    "meta": 1583745314326,
+    "relativePath": "scripts\\start.js"
+  },
+  "88484b91-158c-4511-beb9-114c7b85f7a1": {
+    "asset": 1583747689568,
+    "meta": 1583747689595,
+    "relativePath": "gameover.fire"
+  },
+  "c1789df6-e7ab-4357-9a2b-633d2895a320": {
+    "asset": 1583746037298,
+    "meta": 1583746095867,
+    "relativePath": "textures\\title.png"
+  },
+  "ed4de49b-8f8d-43eb-966f-ec68f91ccf75": {
+    "asset": 1583746044648,
+    "meta": 1583746095890,
+    "relativePath": "textures\\game_over.png"
+  },
   "70aeb653-4b2f-4593-91ba-9606e1a59476": {
-    "asset": 1583719398659,
-    "meta": 1583719465858,
+    "asset": 1583747335017,
+    "meta": 1583747633994,
     "relativePath": "scripts\\game.js"
+  },
+  "01030817-d9d1-45eb-82d1-524c8c77be3a": {
+    "asset": 1583747698704,
+    "meta": 1583747706141,
+    "relativePath": "scripts\\gameover.js"
   }
 }

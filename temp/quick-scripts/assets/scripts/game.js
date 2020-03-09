@@ -40,6 +40,10 @@ cc.Class({
         scoreDisplay: {
             default: null,
             type: cc.Label
+        },
+        scoreAudio: {
+            default: null,
+            type: cc.AudioClip
         }
     },
 
@@ -66,6 +70,8 @@ cc.Class({
         // 为星星设置一个随机位置
         newStar.setPosition(this.getNewStarPosition());
         newStar.getComponent('star').game = this;
+        this.starDuration = this.minStarDuration + Math.random() * (this.maxStarDuration - this.minStarDuration);
+        this.timer = 0;
     },
 
     getNewStarPosition: function getNewStarPosition() {
@@ -83,9 +89,27 @@ cc.Class({
         this.score += scores;
         // 更新 scoreDisplay Label 的文字
         this.scoreDisplay.string = 'Score: ' + this.score;
+        // 播放得分音效
+        cc.audioEngine.playEffect(this.scoreAudio, false);
     },
 
-    start: function start() {}
+    gameOver: function gameOver() {
+        this.player.stopAllActions();
+        this.node.destroy();
+        cc.director.loadScene('gameover');
+    },
+
+    start: function start() {},
+
+
+    update: function update(dt) {
+        if (this.timer > this.starDuration) {
+            this.gameOver();
+            return;
+        }
+        this.timer += dt;
+    }
+
 });
 
 cc._RF.pop();
