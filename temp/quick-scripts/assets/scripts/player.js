@@ -38,9 +38,9 @@ cc.Class({
         // 下落
         var jumpDown = cc.moveBy(this.jumpDuration, cc.v2(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
         // 添加一个回调函数，用于在动作结束时调用我们定义的其他方法
-        var callback = cc.callFunc(this.playJumpSound, this);
+        // var callback = cc.callFunc(this.playJumpSound, this)
         // 不断重复
-        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback));
+        return cc.repeatForever(cc.sequence(jumpUp, jumpDown));
     },
 
     playJumpSound: function playJumpSound() {
@@ -99,8 +99,8 @@ cc.Class({
         var rightArea = cc.find("Canvas/right_area");
         leftArea.on(cc.Node.EventType.TOUCH_START, this.toLeft, this);
         rightArea.on(cc.Node.EventType.TOUCH_START, this.toRight, this);
-        leftArea.off(cc.Node.EventType.TOUCH_END, this.toLeft, this);
-        rightArea.off(cc.Node.EventType.TOUCH_END, this.toRight, this);
+        leftArea.on(cc.Node.EventType.TOUCH_END, this.stopLeft, this);
+        rightArea.on(cc.Node.EventType.TOUCH_END, this.stopRight, this);
     },
 
     onDestroy: function onDestroy() {
