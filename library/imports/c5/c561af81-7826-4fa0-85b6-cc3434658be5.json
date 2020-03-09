@@ -117,6 +117,8 @@
     },
     "_enabled": true,
     "pickRadius": 60,
+    "minStarDuration": 10,
+    "maxStarDuration": 15,
     "_id": ""
   },
   {
@@ -125,7 +127,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "c561af81-7826-4fa0-85b6-cc3434658be5"
     },
     "fileId": "c9RAXKRK1AA6rWfR04QPUO",
     "sync": false

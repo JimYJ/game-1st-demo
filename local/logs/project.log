@@ -1,70 +1,261 @@
-2020-03-08T05:39:47.987Z - normal: Load ~/.CocosCreator/settings.json
-2020-03-08T05:39:48.058Z - normal: Initializing Asset Database
-2020-03-08T05:39:48.062Z - normal: checking language setting...
-2020-03-08T05:39:48.062Z - normal: Language: zh
-2020-03-08T05:39:48.603Z - success: preview server running at http://localhost:7456
-2020-03-08T05:39:48.608Z - success: protocol editor-framework registered
-2020-03-08T05:39:48.608Z - success: protocol app registered
-2020-03-08T05:39:48.608Z - success: protocol theme registered
-2020-03-08T05:39:48.608Z - success: protocol packages registered
-2020-03-08T05:39:48.608Z - success: protocol uuid registerred
-2020-03-08T05:39:48.608Z - success: protocol db registerred
-2020-03-08T05:39:48.608Z - success: protocol thumbnail registerred
-2020-03-08T05:39:48.609Z - success: protocol unpack registerred
-2020-03-08T05:39:48.609Z - success: protocol disable-commonjs registerred
-2020-03-08T05:39:48.710Z - normal: connected!
-2020-03-08T05:39:48.711Z - normal: Check project E:\MyWorkSpace\CocosWorkSpace\game-1st-demo
-2020-03-08T05:39:48.713Z - normal: Initializing project E:\MyWorkSpace\CocosWorkSpace\game-1st-demo
-2020-03-08T05:39:48.767Z - success: adapters loaded
-2020-03-08T05:39:48.771Z - success: asset-db-debugger loaded
-2020-03-08T05:39:48.850Z - success: fb-audience-network loaded
-2020-03-08T05:39:48.878Z - success: fb-live-stream loaded
-2020-03-08T05:39:48.881Z - success: google-play-instant loaded
-2020-03-08T05:39:48.888Z - success: huawei-runtime loaded
-2020-03-08T05:39:48.889Z - success: jkw-adapter loaded
-2020-03-08T05:39:48.889Z - success: jsb-adapter loaded
-2020-03-08T05:39:48.895Z - success: oppo-runtime loaded
-2020-03-08T05:39:48.899Z - success: package-manager loaded
-2020-03-08T05:39:48.900Z - success: qtt-adapter loaded
-2020-03-08T05:39:48.903Z - success: runtime-dev-tools loaded
-2020-03-08T05:39:48.909Z - success: sdkbox loaded
-2020-03-08T05:39:48.912Z - success: ui-kit-preview-extra loaded
-2020-03-08T05:39:48.918Z - success: ui-kit-preview loaded
-2020-03-08T05:39:48.925Z - success: vivo-runtime loaded
-2020-03-08T05:39:48.928Z - success: alipay-minigame loaded
-2020-03-08T05:39:48.975Z - success: assets loaded
-2020-03-08T05:39:48.978Z - success: baidugame-opendata loaded
-2020-03-08T05:39:48.981Z - success: baidugame loaded
-2020-03-08T05:39:48.984Z - success: builder loaded
-2020-03-08T05:39:49.132Z - success: cocos-services loaded
-2020-03-08T05:39:49.135Z - success: console loaded
-2020-03-08T05:39:49.146Z - success: fb-instant-games loaded
-2020-03-08T05:39:49.149Z - success: game-window loaded
-2020-03-08T05:39:49.150Z - success: google-instant-games loaded
-2020-03-08T05:39:49.153Z - success: hierarchy loaded
-2020-03-08T05:39:49.155Z - success: inspector loaded
-2020-03-08T05:39:49.454Z - success: cpk-publish loaded
-2020-03-08T05:39:49.459Z - success: keystore loaded
-2020-03-08T05:39:49.471Z - success: node-library loaded
-2020-03-08T05:39:49.473Z - success: open-recent-items loaded
-2020-03-08T05:39:49.475Z - success: package-asset loaded
-2020-03-08T05:39:49.476Z - success: preferences loaded
-2020-03-08T05:39:49.477Z - success: project-exporter loaded
-2020-03-08T05:39:49.479Z - success: project-importer loaded
-2020-03-08T05:39:49.481Z - success: project-settings loaded
-2020-03-08T05:39:49.495Z - success: qtt-runtime loaded
-2020-03-08T05:39:49.498Z - success: scene loaded
-2020-03-08T05:39:49.499Z - success: simulator-debugger loaded
-2020-03-08T05:39:49.500Z - success: sprite-editor loaded
-2020-03-08T05:39:49.502Z - success: store loaded
-2020-03-08T05:39:49.505Z - success: timeline loaded
-2020-03-08T05:39:49.508Z - success: wechatgame-opendata loaded
-2020-03-08T05:39:49.512Z - success: wechatgame loaded
-2020-03-08T05:39:49.515Z - success: xiaomi-runtime loaded
-2020-03-08T05:39:50.575Z - info: Cocos Service load base data!
-2020-03-08T05:39:51.252Z - normal: Initializing Cocos2d
-2020-03-08T05:39:53.083Z - normal: Initializing engine extends
-2020-03-08T05:39:55.163Z - normal: Loading packages
-2020-03-08T05:39:55.171Z - normal: Watching packages
-2020-03-08T05:39:59.454Z - normal: Run Application
-2020-03-08T11:29:28.015Z - info: shutdown preview server
+2020-03-09T03:36:19.166Z - normal: Load ~/.CocosCreator/settings.json
+2020-03-09T03:36:19.230Z - normal: Initializing Asset Database
+2020-03-09T03:36:19.233Z - normal: checking language setting...
+2020-03-09T03:36:19.233Z - normal: Language: zh
+2020-03-09T03:36:19.762Z - success: preview server running at http://localhost:7456
+2020-03-09T03:36:19.765Z - success: protocol editor-framework registered
+2020-03-09T03:36:19.765Z - success: protocol app registered
+2020-03-09T03:36:19.765Z - success: protocol theme registered
+2020-03-09T03:36:19.765Z - success: protocol packages registered
+2020-03-09T03:36:19.767Z - success: protocol uuid registerred
+2020-03-09T03:36:19.767Z - success: protocol db registerred
+2020-03-09T03:36:19.767Z - success: protocol thumbnail registerred
+2020-03-09T03:36:19.767Z - success: protocol unpack registerred
+2020-03-09T03:36:19.767Z - success: protocol disable-commonjs registerred
+2020-03-09T03:36:19.955Z - normal: connected!
+2020-03-09T03:36:19.959Z - normal: Check project D:\MyWorkSpace\CocosGames\start_project
+2020-03-09T03:36:19.961Z - normal: Initializing project D:\MyWorkSpace\CocosGames\start_project
+2020-03-09T03:36:20.004Z - success: adapters loaded
+2020-03-09T03:36:20.013Z - success: asset-db-debugger loaded
+2020-03-09T03:36:20.097Z - success: fb-audience-network loaded
+2020-03-09T03:36:20.150Z - success: fb-live-stream loaded
+2020-03-09T03:36:20.172Z - success: google-play-instant loaded
+2020-03-09T03:36:20.212Z - success: huawei-runtime loaded
+2020-03-09T03:36:20.217Z - success: jkw-adapter loaded
+2020-03-09T03:36:20.222Z - success: jsb-adapter loaded
+2020-03-09T03:36:20.246Z - success: oppo-runtime loaded
+2020-03-09T03:36:20.255Z - success: package-manager loaded
+2020-03-09T03:36:20.260Z - success: qtt-adapter loaded
+2020-03-09T03:36:20.273Z - success: runtime-dev-tools loaded
+2020-03-09T03:36:20.290Z - success: sdkbox loaded
+2020-03-09T03:36:20.298Z - success: ui-kit-preview-extra loaded
+2020-03-09T03:36:20.306Z - success: ui-kit-preview loaded
+2020-03-09T03:36:20.348Z - success: vivo-runtime loaded
+2020-03-09T03:36:20.351Z - success: alipay-minigame loaded
+2020-03-09T03:36:20.395Z - success: assets loaded
+2020-03-09T03:36:20.398Z - success: baidugame-opendata loaded
+2020-03-09T03:36:20.401Z - success: baidugame loaded
+2020-03-09T03:36:20.404Z - success: builder loaded
+2020-03-09T03:36:20.578Z - success: cocos-services loaded
+2020-03-09T03:36:20.582Z - success: console loaded
+2020-03-09T03:36:20.593Z - success: fb-instant-games loaded
+2020-03-09T03:36:20.595Z - success: game-window loaded
+2020-03-09T03:36:20.596Z - success: google-instant-games loaded
+2020-03-09T03:36:20.599Z - success: hierarchy loaded
+2020-03-09T03:36:20.601Z - success: inspector loaded
+2020-03-09T03:36:20.926Z - success: cpk-publish loaded
+2020-03-09T03:36:20.933Z - success: keystore loaded
+2020-03-09T03:36:20.947Z - success: node-library loaded
+2020-03-09T03:36:20.948Z - success: open-recent-items loaded
+2020-03-09T03:36:20.950Z - success: package-asset loaded
+2020-03-09T03:36:20.951Z - success: preferences loaded
+2020-03-09T03:36:20.953Z - success: project-exporter loaded
+2020-03-09T03:36:20.955Z - success: project-importer loaded
+2020-03-09T03:36:20.958Z - success: project-settings loaded
+2020-03-09T03:36:20.972Z - success: qtt-runtime loaded
+2020-03-09T03:36:20.974Z - success: scene loaded
+2020-03-09T03:36:20.975Z - success: simulator-debugger loaded
+2020-03-09T03:36:20.976Z - success: sprite-editor loaded
+2020-03-09T03:36:20.978Z - success: store loaded
+2020-03-09T03:36:20.981Z - success: timeline loaded
+2020-03-09T03:36:20.984Z - success: wechatgame-opendata loaded
+2020-03-09T03:36:20.988Z - success: wechatgame loaded
+2020-03-09T03:36:20.992Z - success: xiaomi-runtime loaded
+2020-03-09T03:36:21.802Z - normal: Initializing Cocos2d
+2020-03-09T03:36:24.525Z - normal: Initializing engine extends
+2020-03-09T03:36:26.530Z - info: Cocos Service load base data!
+2020-03-09T03:36:26.531Z - normal: Loading packages
+2020-03-09T03:36:26.540Z - normal: Watching packages
+2020-03-09T03:36:32.653Z - normal: Run Application
+2020-03-09T03:38:25.637Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "android": {
+    "packageName": ""
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "D:\\MyWorkSpace\\CocosGames\\start_project\\build",
+  "debug": false,
+  "dest": "D:\\MyWorkSpace\\CocosGames\\start_project\\build\\web-mobile",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": ""
+  },
+  "mac": {
+    "packageName": ""
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "71ffc2be-c7fb-4e25-95d4-4dcce74afc6b"
+  ],
+  "sourceMaps": false,
+  "startScene": "71ffc2be-c7fb-4e25-95d4-4dcce74afc6b",
+  "template": "link",
+  "title": "start_project",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "win32": {},
+  "xxteaKey": "f0275b2b-defd-48",
+  "zipCompressJs": true,
+  "project": "D:\\MyWorkSpace\\CocosGames\\start_project",
+  "projectName": "start_project",
+  "debugBuildWorker": false
+}
+2020-03-09T03:38:25.638Z - normal: Building D:\MyWorkSpace\CocosGames\start_project
+2020-03-09T03:38:25.638Z - normal: Destination D:\MyWorkSpace\CocosGames\start_project\build\web-mobile
+2020-03-09T03:38:25.777Z - normal: Delete D:\MyWorkSpace\CocosGames\start_project\build\web-mobile\subpackages/**/*,D:\MyWorkSpace\CocosGames\start_project\build\web-mobile\**\*
+2020-03-09T03:38:48.190Z - warn: D:\MyWorkSpace\CocosGames\start_project\build not exists!
+2020-03-09T03:39:12.815Z - normal: Start building assets
+2020-03-09T03:39:12.815Z - normal: Start spawn build-worker
+2020-03-09T03:39:13.578Z - normal: Finish spawn build-worker
+2020-03-09T03:39:13.579Z - normal: Start init build-worker
+2020-03-09T03:39:16.030Z - normal: Finish init build-worker
+2020-03-09T03:39:16.031Z - normal: Start build-assets in worker
+2020-03-09T03:39:16.725Z - normal: Finish build-assets in worker
+2020-03-09T03:39:16.732Z - normal: Finish building assets
+2020-03-09T03:39:16.748Z - normal: Start building plugin scripts
+2020-03-09T03:39:16.782Z - normal: Generating main.js from C:\Program Files (x86)\CocosCreator_2.2.2\resources\static\build-templates\shares\main.js
+2020-03-09T03:39:16.835Z - normal: Generating html from C:\Program Files (x86)\CocosCreator_2.2.2\resources\static\build-templates\web-mobile\template\index.html
+2020-03-09T03:39:16.869Z - normal: Built to "D:\MyWorkSpace\CocosGames\start_project\build\web-mobile" successfully
+2020-03-09T06:09:37.055Z - failed: Failed to drop asset db://internal/resources/materials/builtin-2d-base.mtl, message: Error: Can not create node from cc.Material
+    at C:\Program Files (x86)\CocosCreator_2.2.2\resources\app.asar\editor\page\scene-utils\utils\node.js:1:5122
+    at CCLoader.<anonymous> (C:\Program Files (x86)\CocosCreator_2.2.2\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCAssetLibrary.js:66:25)
+    at C:\Program Files (x86)\CocosCreator_2.2.2\resources\engine\bin\.cache\dev\cocos2d\core\load-pipeline\CCLoader.js:141:46
+    at C:\Program Files (x86)\CocosCreator_2.2.2\resources\engine\bin\.cache\dev\cocos2d\core\platform\utils.js:49:25
+    at processTicksAndRejections (internal/process/task_queues.js:79:9)
+2020-03-09T06:23:34.829Z - warn: The Asset used by node "start_bg" is missing. Detailed information:
+Node path: "Canvas/start/start_bg"
+Missing uuid: "fe097fd0-3b86-429d-b288-8ee629d6611f"
+
+2020-03-09T06:23:34.829Z - warn: The Asset used by node "Label" is missing. Detailed information:
+Node path: "Canvas/start/btn_bg/Label"
+Missing uuid: "fe097fd0-3b86-429d-b288-8ee629d6611f"
+
+2020-03-09T06:23:34.829Z - warn: The Asset used by node "btn_bg" is missing. Detailed information:
+Node path: "Canvas/start/btn_bg"
+Missing uuid: "fe097fd0-3b86-429d-b288-8ee629d6611f"
+
+2020-03-09T06:23:34.830Z - warn: The Asset used by node "start" is missing. Detailed information:
+Node path: "Canvas/start"
+Missing uuid: "fe097fd0-3b86-429d-b288-8ee629d6611f"
+
+2020-03-09T06:24:35.081Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/scripts/start.js.meta
+2020-03-09T10:03:50.969Z - normal: Start building with options : {
+  "actualPlatform": "web-mobile",
+  "android": {
+    "packageName": ""
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "D:\\MyWorkSpace\\CocosGames\\start_project\\build",
+  "debug": false,
+  "dest": "D:\\MyWorkSpace\\CocosGames\\start_project\\build\\web-mobile",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Geom Utils",
+    "3D",
+    "3D Primitive"
+  ],
+  "fb-instant-games": {},
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "packageName": ""
+  },
+  "mac": {
+    "packageName": ""
+  },
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "71ffc2be-c7fb-4e25-95d4-4dcce74afc6b",
+    "88484b91-158c-4511-beb9-114c7b85f7a1",
+    "b021c069-6af6-49ff-90c7-e1e6b389efce"
+  ],
+  "sourceMaps": false,
+  "startScene": "71ffc2be-c7fb-4e25-95d4-4dcce74afc6b",
+  "template": "link",
+  "title": "GetStar",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "portrait",
+  "win32": {},
+  "xxteaKey": "f0275b2b-defd-48",
+  "zipCompressJs": true,
+  "project": "D:\\MyWorkSpace\\CocosGames\\start_project",
+  "projectName": "GetStar",
+  "debugBuildWorker": false
+}
+2020-03-09T10:03:50.969Z - normal: Building D:\MyWorkSpace\CocosGames\start_project
+2020-03-09T10:03:50.969Z - normal: Destination D:\MyWorkSpace\CocosGames\start_project\build\web-mobile
+2020-03-09T10:03:50.970Z - normal: Delete D:\MyWorkSpace\CocosGames\start_project\build\web-mobile\subpackages/**/*,D:\MyWorkSpace\CocosGames\start_project\build\web-mobile\**\*
+2020-03-09T10:03:54.498Z - normal: Start building assets
+2020-03-09T10:03:54.498Z - normal: Start spawn build-worker
+2020-03-09T10:03:55.076Z - normal: Finish spawn build-worker
+2020-03-09T10:03:55.076Z - normal: Start init build-worker
+2020-03-09T10:04:02.434Z - normal: Finish init build-worker
+2020-03-09T10:04:02.434Z - normal: Start build-assets in worker
+2020-03-09T10:04:04.069Z - normal: Finish build-assets in worker
+2020-03-09T10:04:04.081Z - normal: Finish building assets
+2020-03-09T10:04:04.130Z - normal: Start building plugin scripts
+2020-03-09T10:04:04.155Z - normal: Generating main.js from C:\Program Files (x86)\CocosCreator_2.2.2\resources\static\build-templates\shares\main.js
+2020-03-09T10:04:04.206Z - normal: Generating html from C:\Program Files (x86)\CocosCreator_2.2.2\resources\static\build-templates\web-mobile\template\index.html
+2020-03-09T10:04:04.254Z - normal: Built to "D:\MyWorkSpace\CocosGames\start_project\build\web-mobile" successfully
