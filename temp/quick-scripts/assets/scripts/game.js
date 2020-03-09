@@ -46,7 +46,8 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
-
+        // 初始化积分
+        this.score = 0;
         // 初始化计时器
         this.timer = 0;
         this.starDuration = 0;
@@ -55,8 +56,6 @@ cc.Class({
         var player = cc.instantiate(this.player);
         player.getComponent('player').game = this;
         this.spawnNewStar();
-        // 初始化积分
-        this.score = 0;
     },
 
     spawnNewStar: function spawnNewStar() {
