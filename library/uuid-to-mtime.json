@@ -535,8 +535,8 @@
     "relativePath": "scripts\\start.js"
   },
   "88484b91-158c-4511-beb9-114c7b85f7a1": {
-    "asset": 1583809149527,
-    "meta": 1583809149627,
+    "asset": 1583815286662,
+    "meta": 1583815286727,
     "relativePath": "gameover.fire"
   },
   "c1789df6-e7ab-4357-9a2b-633d2895a320": {
@@ -560,8 +560,8 @@
     "relativePath": "scripts\\game.js"
   },
   "8af088c9-98d5-4781-bf4a-9f566717a8ab": {
-    "asset": 1583809608841,
-    "meta": 1583809610188,
+    "asset": 1583809747714,
+    "meta": 1583811393442,
     "relativePath": "scripts\\player.js"
   }
 }

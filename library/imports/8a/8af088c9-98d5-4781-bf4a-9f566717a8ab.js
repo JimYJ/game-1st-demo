@@ -127,13 +127,8 @@ cc.Class({
         // 根据当前速度更新主角的位置
         this.node.x += this.xSpeed * dt;
         // 限制边界
-        // var size = cc.view.getFrameSize();
         var half = cc.winSize.width / 2;
-        // let windowSize = cc.view.getVisibleSize();
-        // cc.log("width1=" + windowSize.width + ",height=" + windowSize.height);
-        // windowSize = cc.winSize;//推荐  原因  短
-        // cc.log("width2=" + windowSize.width + ",height=" + windowSize.height);
-        // cc.log("width3=" + size.width + ",height=" + size.height);
+        // let half = cc.view.getVisibleSize();
         if (Math.abs(this.node.x) >= half) {
             this.node.x = half * this.node.x / Math.abs(this.node.x);
         }

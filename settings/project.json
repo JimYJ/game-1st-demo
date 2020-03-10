@@ -16,7 +16,7 @@
   "last-module-event-record-time": 1583725106620,
   "design-resolution-width": 960,
   "design-resolution-height": 640,
-  "fit-width": false,
+  "fit-width": true,
   "fit-height": true,
   "use-project-simulator-setting": false,
   "simulator-orientation": false,
