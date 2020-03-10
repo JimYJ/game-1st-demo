@@ -116,9 +116,10 @@
       "__id__": 1
     },
     "_enabled": true,
+    "tips_1": {
+      "__uuid__": "e2104948-c886-426a-afed-8fc8689383a4"
+    },
     "pickRadius": 60,
-    "minStarDuration": 10,
-    "maxStarDuration": 15,
     "_id": ""
   },
   {

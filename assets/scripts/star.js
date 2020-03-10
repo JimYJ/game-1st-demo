@@ -12,6 +12,11 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        // 这个属性引用了加分动画预制资源
+        tips_1: {
+            default: null,
+            type: cc.Prefab
+        },
         pickRadius: 0,
     },
 
@@ -30,6 +35,13 @@ cc.Class({
         this.game.spawnNewStar();
         // 然后销毁当前星星节点
         this.node.destroy();
+        // 使用给定的模板在场景中生成一个新节点
+        var tips_1 = cc.instantiate(this.tips_1)
+        // 将新增的节点添加到 Canvas 节点下面
+        this.game.node.addChild(tips_1)
+        tips_1.setPosition(cc.v2(this.node.x, this.node.y))
+        // 为星星设置一个随机位置
+
         // 增加积分
         this.game.gainScore(1);
 

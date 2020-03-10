@@ -20,7 +20,7 @@
                     "children": [
                       "hierarchy"
                     ],
-                    "height": 364.8781433105469,
+                    "height": 357.100830078125,
                     "type": "panel",
                     "width": 203.99998474121094
                   },
@@ -29,12 +29,12 @@
                     "children": [
                       "assets"
                     ],
-                    "height": 364.8781433105469,
+                    "height": 357.100830078125,
                     "type": "panel",
                     "width": 203.99998474121094
                   }
                 ],
-                "height": 364.8781433105469,
+                "height": 357.100830078125,
                 "type": "dock-h",
                 "width": 410.9999694824219
               },
@@ -43,12 +43,12 @@
                 "children": [
                   "node-library"
                 ],
-                "height": 363.6554260253906,
+                "height": 356.11761474609375,
                 "type": "panel",
                 "width": 410.9999694824219
               }
             ],
-            "height": 731.5462036132812,
+            "height": 716.2184448242188,
             "type": "dock-v",
             "width": 410.9999694824219
           },
@@ -57,9 +57,9 @@
             "children": [
               "scene"
             ],
-            "height": 731.5462036132812,
+            "height": 716.2184448242188,
             "type": "panel",
-            "width": 628.7142333984375
+            "width": 614.1932373046875
           },
           {
             "children": [
@@ -103,6 +103,32 @@
         "timeline",
         "game-window"
       ]
+    },
+    "window-1583831795308": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 1989,
+      "y": 154,
+      "width": 622,
+      "height": 585,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "project-settings"
+            ],
+            "height": 546.1512451171875,
+            "type": "panel",
+            "width": 605.0419921875
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "project-settings"
+      ]
     }
   },
   "panels": {
@@ -119,10 +145,10 @@
       "height": 770
     },
     "project-settings": {
-      "x": 1991,
-      "y": 178,
-      "width": 618,
-      "height": 582
+      "x": 1989,
+      "y": 154,
+      "width": 622,
+      "height": 585
     }
   },
   "panelLabelWidth": {

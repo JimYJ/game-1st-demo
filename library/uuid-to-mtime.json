@@ -465,7 +465,7 @@
     "relativePath": "audio\\jump.mp3"
   },
   "d6ff10bc-4d58-4d63-8af4-19151a90da2c": {
-    "asset": 1526930962000,
+    "asset": 1583746095726,
     "meta": 1526930962000,
     "relativePath": "textures"
   },
@@ -500,24 +500,19 @@
     "relativePath": "textures\\star.png"
   },
   "71ffc2be-c7fb-4e25-95d4-4dcce74afc6b": {
-    "asset": 1583807033487,
-    "meta": 1583807033570,
+    "asset": 1583830804107,
+    "meta": 1583830804146,
     "relativePath": "game.fire"
   },
   "658b0aaf-f353-4817-a387-b4b9e22230c4": {
-    "asset": 1583719398726,
+    "asset": 1583806842875,
     "meta": 1583487926631,
     "relativePath": "scripts"
   },
   "c561af81-7826-4fa0-85b6-cc3434658be5": {
-    "asset": 1583722724751,
-    "meta": 1583722724775,
+    "asset": 1583833637139,
+    "meta": 1583833637163,
     "relativePath": "star.prefab"
-  },
-  "73278a6c-84b8-4a21-9caf-65a59249dc4b": {
-    "asset": 1583724334887,
-    "meta": 1583724535176,
-    "relativePath": "scripts\\star.js"
   },
   "b021c069-6af6-49ff-90c7-e1e6b389efce": {
     "asset": 1583807231435,
@@ -559,9 +554,24 @@
     "meta": 1583753583123,
     "relativePath": "scripts\\game.js"
   },
+  "e2104948-c886-426a-afed-8fc8689383a4": {
+    "asset": 1583832202065,
+    "meta": 1583832202084,
+    "relativePath": "score_tips.prefab"
+  },
+  "24302860-9b69-4cff-9d46-132645bd05c0": {
+    "asset": 1583836188304,
+    "meta": 1583836192148,
+    "relativePath": "scripts\\tips.js"
+  },
   "8af088c9-98d5-4781-bf4a-9f566717a8ab": {
-    "asset": 1583809747714,
-    "meta": 1583811393442,
+    "asset": 1583838262462,
+    "meta": 1583838277696,
     "relativePath": "scripts\\player.js"
+  },
+  "73278a6c-84b8-4a21-9caf-65a59249dc4b": {
+    "asset": 1583837764073,
+    "meta": 1583838277705,
+    "relativePath": "scripts\\star.js"
   }
 }
