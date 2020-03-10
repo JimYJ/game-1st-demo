@@ -1,7 +1,7 @@
 {
   "title": "GetStar",
   "packageName": "",
-  "startScene": "71ffc2be-c7fb-4e25-95d4-4dcce74afc6b",
+  "startScene": "b021c069-6af6-49ff-90c7-e1e6b389efce",
   "excludeScenes": [],
   "includeSDKBox": false,
   "orientation": {
@@ -13,7 +13,7 @@
   "webOrientation": "portrait",
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
-  "mergeStartScene": false,
+  "mergeStartScene": true,
   "optimizeHotUpdate": false,
   "md5Cache": false,
   "encryptJs": true,

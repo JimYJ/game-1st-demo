@@ -1,5 +1,4 @@
 {
-  "start-scene": "b021c069-6af6-49ff-90c7-e1e6b389efce",
   "group-list": [
     "default"
   ],
@@ -16,7 +15,7 @@
   "last-module-event-record-time": 1583725106620,
   "design-resolution-width": 960,
   "design-resolution-height": 640,
-  "fit-width": false,
+  "fit-width": true,
   "fit-height": true,
   "use-project-simulator-setting": false,
   "simulator-orientation": false,
