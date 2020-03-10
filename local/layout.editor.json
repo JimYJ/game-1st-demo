@@ -103,32 +103,6 @@
         "timeline",
         "game-window"
       ]
-    },
-    "window-1583831795308": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 1989,
-      "y": 154,
-      "width": 622,
-      "height": 585,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "project-settings"
-            ],
-            "height": 546.1512451171875,
-            "type": "panel",
-            "width": 605.0419921875
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "project-settings"
-      ]
     }
   },
   "panels": {
@@ -140,9 +114,9 @@
     },
     "builder": {
       "x": 1933,
-      "y": 38,
-      "width": 700,
-      "height": 770
+      "y": 35,
+      "width": 704,
+      "height": 774
     },
     "project-settings": {
       "x": 1989,

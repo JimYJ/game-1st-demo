@@ -24,10 +24,7 @@ cc.Class({
     onLoad: function onLoad() {
         var actionDown = cc.moveBy(0.1, 0, -10); //.easing(cc.easeCubicActionOut());
         var actionUp = cc.moveBy(0.3, 0, 40); //.easing(cc.easeCubicActionOut());
-        this.node.runAction(actionDown);
-        this.scheduleOnce(function () {
-            this.node.runAction(actionUp);
-        }, 0.1);
+        this.node.runAction(actionDown, actionUp);
         this.scheduleOnce(function () {
             this.node.stopAction();
             this.node.destroy();

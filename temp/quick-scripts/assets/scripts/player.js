@@ -22,6 +22,8 @@ cc.Class({
         jumpHeight: 0,
         // 主角跳跃持续时间
         jumpDuration: 0,
+        // 辅助形变动作时间
+        squashDuration: 0,
         // 最大移动速度
         maxMoveSpeed: 0,
         // 加速度
