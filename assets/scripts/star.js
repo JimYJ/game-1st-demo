@@ -39,12 +39,10 @@ cc.Class({
         var tips_1 = cc.instantiate(this.tips_1)
         // 将新增的节点添加到 Canvas 节点下面
         this.game.node.addChild(tips_1)
+        // 为+1效果设置星星相同的位置
         tips_1.setPosition(cc.v2(this.node.x, this.node.y))
-        // 为星星设置一个随机位置
-
         // 增加积分
         this.game.gainScore(1);
-
     },
 
     start() {
