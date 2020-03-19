@@ -46,6 +46,10 @@ cc.Class({
         screenRight: {
             default: null,
             type: cc.Sprite
+        },
+        progressBar: {
+            default: null,
+            type: cc.Sprite
         }
     },
 
@@ -62,12 +66,6 @@ cc.Class({
         this.groundY = this.ground.y + this.ground.height / 2;
         var player = cc.instantiate(this.player)
         player.getComponent('player').game = this
-
-        // this.screenLeft.node.on(cc.Node.EventType.TOUCH_START, player.toLeft(), this);
-        // this.screenRight.node.on(cc.Node.EventType.TOUCH_START, player.toRight(), this);
-        // this.screenLeft.node.off(cc.Node.EventType.TOUCH_END, player.stopLeft(), this);
-        // this.screenRight.node.off(cc.Node.EventType.TOUCH_END, player.stopRight(), this);
-
         this.spawnNewStar();
     },
 
@@ -81,6 +79,9 @@ cc.Class({
         newStar.getComponent('star').game = this
         this.starDuration = this.minStarDuration + Math.random() * (this.maxStarDuration - this.minStarDuration)
         this.timer = 0
+        this.progressBar.Progress = 1
+        console.log(this.progressBar.Progress)
+        console.log(this.progressBar)
     },
 
     getNewStarPosition: function () {
@@ -118,6 +119,8 @@ cc.Class({
             this.gameOver();
             return
         }
+        this.progressBar.Progress = 1 - this.timer / this.starDuration;
+        console.log(this.progressBar.Progress)
         this.timer += dt
     }
 
